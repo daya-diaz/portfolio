@@ -1,6 +1,16 @@
+@media screen and (max-width: 375px) {
+  .container {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 32rem;
+  }
+}
+
 .container {
   align-items: flex-end;
-  min-width: 103.1rem;
+  width: 103.1rem;
   padding: 1.6rem 0 0 0;
 }
 .navHeader a {
@@ -34,3 +44,18 @@
   display: flex;
   gap: 3.2rem;
 } 
+#menu-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100vw;
+  }
+  #menu-mobile {
+    display: block;
+  }
+  .navHeader {
+    display: none;
+  }
+}

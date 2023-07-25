@@ -22,6 +22,9 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <a id='menu-mobile' href="#">
+        <img src={Menu} alt="Menu" />
+      </a>
     </header>
   )
 }

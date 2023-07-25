@@ -1,3 +1,5 @@
+
+
 .home {
   display:flex;
   margin: 0 auto;
@@ -88,4 +90,26 @@
 }
 .home-buttons-content  button:hover::after {
   transform: scaleX(1); /* Quando o mouse está sobre o botão, a linha é visível */
+}
+
+@media screen and (max-width: 375px) {
+  .home{
+    padding: 3rem 2.4rem;
+    width: 32.4rem;
+  }
+  .home-avatar-content {
+    margin: 0;
+  }
+  .home-text-content {
+    margin-bottom: 1.7rem;
+  }
+  .home-text-content p {
+    font-size: 2.4rem;
+  }
+  .home-text-content h1 {
+    width: 27.9rem;
+  }
+  .highlighted-text{
+    font-size: 3.2rem
+  }
 }
