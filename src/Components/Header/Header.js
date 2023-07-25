@@ -9,9 +9,19 @@ const Header = () => {
       <a href="#"> 
         <img src={Logo} alt="Logo" />
       </a>    
-      <a href="#">
-        <img src={Menu} alt="" />
-      </a>
+      <nav  className='navHeader'>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#projects">Projetos</a>
+          </li>
+          <li>
+            <a href="#about">Sobre</a>
+          </li>
+        </ul>
+      </nav>
     </header>
   )
 }

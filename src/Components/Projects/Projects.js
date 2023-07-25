@@ -4,7 +4,7 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 import projects from '../../Data/data'
 const Projects = () => {
   return (
-    <section className='container projects'>
+    <section className='container projects' id='projects'>
       <h2>Ultimos <br/>Projetos</h2>
       <div id="projectCards">
         {
