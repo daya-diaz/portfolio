@@ -59,7 +59,7 @@
 .home-buttons-content a:hover {
   opacity: 0.7;
 }
-.home-buttons-content button {
+.home-buttons-content .downloadCV {
   color: #111827;
   font-weight: 500;
   background: transparent;
