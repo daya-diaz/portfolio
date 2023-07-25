@@ -1,0 +1,62 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  gap: 3.8rem;
+  align-items: flex-start;
+}
+
+.about-content{
+  display: flex;
+  gap: 7.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content .about-text{
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  justify-content: flex-end;
+}
+
+.about-image > img {
+  max-width: 44.2rem;
+}
+
+.paragraph-with-line {
+  position: relative;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.4rem;
+  color: #111827;
+  width: 46.6rem;
+  padding-left: 2rem;
+}
+
+.paragraph-with-line::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 100%;
+  background-color: black;
+  border-radius: 936px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem
+}
+.skills h3 {
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 90%;
+  color: #111827;
+}
+
+.skillsContent {
+  display: flex;
+  justify-content: space-between;
+}

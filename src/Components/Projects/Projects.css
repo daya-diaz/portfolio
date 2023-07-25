@@ -1,0 +1,9 @@
+.projects {
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 6rem;
+}
+#projectCards {
+  display: flex;
+  column-gap: 2.4rem
+}
