@@ -10,19 +10,19 @@ import Projects from './Components/Projects/Projects';
 function App() {
   return (
     <div className="App app-container">
-      <Element name='header' style={{ margin: '0 auto' }}>
+      <Element name='header' style={{   margin: '0 auto', width: '90%' }}>
         <Header />
       </Element>
-      <Element name='home' style={{ margin: '0 auto' }}>
+      <Element name='home' style={{   margin: '0 auto', width: '90%'}}>
         <Home />
       </Element>
-      <Element name='projects' style={{ margin: '0 auto' }}>
+      <Element name='projects' style={{  margin: '0 auto', width: '90%' }}>
         <Projects />
       </Element>
-      <Element name='about' style={{ margin: '0 auto' }}>
+      <Element name='about' style={{   margin: '0 auto', width: '90%' }}>
         <About />
       </Element>
-      <Element name='footer'>
+      <Element name='footer' style={{ width: '100%' }}>
         <Footer />
       </Element>
     </div>

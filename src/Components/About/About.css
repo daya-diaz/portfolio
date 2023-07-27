@@ -1,15 +1,14 @@
 #about {
   display: flex;
   flex-direction: column;
-  gap: 3.8rem;
+  gap: 1.8rem;
   align-items: flex-start;
 }
 
 .about-content{
   display: flex;
-  gap: 7.2rem;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  gap: 2.4rem;
 }
 
 .about-content .about-text{
@@ -20,7 +19,7 @@
 }
 
 .about-image > img {
-  max-width: 44.2rem;
+  max-width: 40rem;
 }
 
 .paragraph-with-line {

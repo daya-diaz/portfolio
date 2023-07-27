@@ -9,20 +9,21 @@
 }
 
 .container {
-  align-items: flex-end;
-  width: 103.1rem;
-  padding: 1.6rem 0 0 0;
+  padding: 4rem 0 0 0;
+  align-items: center;
+
+  .navHeader a {
+    position: relative;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #111827;
+    padding: .4rem;
+  } 
+  .navHeader a:hover {
+    color: #F59E0B;
+  }
 }
-.navHeader a {
-  position: relative;
-  font-size: 1.8rem;
-  text-decoration: none;
-  color: #111827;
-  padding: .4rem;
-}
-.navHeader a:hover {
-  color: #F59E0B;
-}
+
 
 .navHeader a::after {
   content: "";

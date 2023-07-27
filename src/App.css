@@ -5,7 +5,9 @@
   justify-content: center;
   flex-direction: column;
   margin: 0 auto;
-  row-gap: 8.8rem;
+  row-gap: 7rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 .app-container {
   overflow-y: scroll;
