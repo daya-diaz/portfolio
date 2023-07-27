@@ -16,3 +16,18 @@
   width: 116.25px;
   height: 116.25px;
 }
+
+@media screen and (max-width: 375px) {
+  .techCard{
+    max-width: 84px;
+    gap: 0.8rem;
+  }
+  .techCard p {
+    font-size: 1.6rem;
+    width: 100%;
+    text-align: center;
+  }
+  .techCard img {
+    width: 84px;
+  }
+}

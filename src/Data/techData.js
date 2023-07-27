@@ -16,7 +16,7 @@ const techs = [
     id: 3,
     techName: 'Sass',
     techImage: SassBrand,
-  },
+  }
 ];
 
 export default techs;

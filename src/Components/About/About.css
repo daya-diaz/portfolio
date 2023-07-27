@@ -60,3 +60,19 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 375px) {
+  #about {
+    flex-direction: column;
+  }
+  .about-text p {
+    font-size: 1.6rem;
+    width: 31rem;
+  }
+  #about .about-content {
+    flex-direction: column;
+  }
+  #about .about-image img {
+    width: 21.2rem;
+  }
+}

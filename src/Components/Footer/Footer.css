@@ -34,3 +34,13 @@
   display: flex;
   gap: 1.6rem;
 }
+
+@media screen and (max-width: 375px){
+  #footer{
+    min-width: 100%;
+    margin: 0;
+  }
+  .footer-image {
+    display: none;
+  }
+}
