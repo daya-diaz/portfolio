@@ -10,6 +10,7 @@ export default {
       colors: {
         'gra-50': '#E1E1E1',
         'gray-100': '#C9C9C9',
+        'gray-200': '#585858',
         'blue-500': '#0057FF',
       },
     },

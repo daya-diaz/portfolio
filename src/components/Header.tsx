@@ -1,5 +1,5 @@
 import logo from '../assets/logo.png'
-import { SmallButton } from './SmallButton'
+import { Button } from './Button'
 
 export function Header() {
   return (
@@ -11,8 +11,8 @@ export function Header() {
         />
       </div>
       <div className="hidden md:flex gap-3">
-        <SmallButton textButton="Sobre mim" type="secondary" />
-        <SmallButton textButton="Contato" />
+        <Button textButton="Sobre mim" type="secondary" />
+        <Button textButton="Contato" />
       </div>
     </header>
   )

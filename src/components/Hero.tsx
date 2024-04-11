@@ -1,5 +1,5 @@
 import dayanePic from '../assets/dayaneImg.png'
-import { SmallButton } from './SmallButton'
+import { Button } from './Button'
 
 export function Hero() {
   return (
@@ -18,7 +18,7 @@ export function Hero() {
           Software Developer apaixonada com foco no desenvolvimento ReactJS,
           dedicada à criação de websites elegantes e fáceis de usar.
         </p>
-        <SmallButton textButton="Entre em contato" type="secondary" />
+        <Button size="big" textButton="Entre em contato" type="secondary" />
       </div>
     </section>
   )
