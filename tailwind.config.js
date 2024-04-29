@@ -8,10 +8,12 @@ export default {
         inter: ['Inter', 'sans-serif'],
       },
       colors: {
-        'gra-50': '#E1E1E1',
+        'gray-50': '#E1E1E1',
         'gray-100': '#C9C9C9',
         'gray-200': '#585858',
+        'gray-400': '#878787',
         'blue-500': '#0057FF',
+        'gray-body': '#E1E1E1',
       },
     },
   },

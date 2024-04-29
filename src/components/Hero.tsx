@@ -3,7 +3,7 @@ import { Button } from './Button'
 
 export function Hero() {
   return (
-    <section className="px-4 py-4">
+    <section className="mx-4  md:py-4">
       <div className="flex flex-col items-center justify-center font-poppins gap-5">
         <img className="w-60 h-60" src={dayanePic} alt="" />
         <div className="flex flex-col items-center  md:gap-3">

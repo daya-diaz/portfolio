@@ -1,6 +1,9 @@
 import AboutSection from './components/AboutSection'
+import ExperienceSection from './components/ExperienceSection'
+import FooterSection from './components/FooterSection'
 import { Header } from './components/Header'
 import { Hero } from './components/Hero'
+import ProjectsSection from './components/ProjectsSection'
 
 function App() {
   return (
@@ -9,6 +12,9 @@ function App() {
         <Header />
         <Hero />
         <AboutSection />
+        <ExperienceSection />
+        <ProjectsSection />
+        <FooterSection />
       </div>
     </main>
   )
