@@ -11,8 +11,10 @@ export function Header() {
         />
       </div>
       <div className="hidden md:flex gap-3">
-        <Button textButton="Sobre mim" type="secondary" />
-        <Button textButton="Contato" />
+        <Button
+          href="https://api.whatsapp.com/send?phone=5581998595825"
+          textButton="Contato"
+        />
       </div>
     </header>
   )
