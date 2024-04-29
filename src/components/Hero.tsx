@@ -18,7 +18,12 @@ export function Hero() {
           Software Developer apaixonada com foco no desenvolvimento ReactJS,
           dedicada à criação de websites elegantes e fáceis de usar.
         </p>
-        <Button size="big" textButton="Entre em contato" type="secondary" />
+        <Button
+          href="https://api.whatsapp.com/send?phone=5581998595825"
+          size="big"
+          textButton="Entre em contato"
+          type="secondary"
+        />
       </div>
     </section>
   )
