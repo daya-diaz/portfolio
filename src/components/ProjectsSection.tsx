@@ -3,7 +3,7 @@ import TitleSections from './TitleSections'
 import projects from '../data'
 export default function ProjectsSection() {
   return (
-    <section className="flex flex-col items-center m-auto justify-start gap-6 md:h-[400px] md:w-[706px]">
+    <section className="flex flex-col items-center m-auto justify-start gap-6 py-16 md:h-[400px] md:w-[706px]">
       <TitleSections title="Projetos recentes" />
       <div className="flex flex-col items-center justify-center md:justify-between flex-wrap gap-6 md:flex-row">
         {projects.map((project) => {

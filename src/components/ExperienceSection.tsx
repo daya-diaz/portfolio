@@ -3,7 +3,7 @@ import TitleSections from './TitleSections'
 
 export default function ExperienceSection() {
   return (
-    <section className="px-3 flex flex-col items-center m-auto justify-start gap-6 py-20 md:py-32 md:h-screen md:w-[706px]">
+    <section className="px-3 flex flex-col items-center m-auto justify-start gap-6 py-16 md:w-[706px]">
       <TitleSections title="Experiêcia" />
       <div className="px-3 w-full flex flex-col gap-8">
         <div className="flex justify-center md:justify-between items-center">

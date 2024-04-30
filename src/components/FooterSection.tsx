@@ -3,7 +3,7 @@ import githubLogo from '../assets/github.svg'
 import logo from '../assets/logo.png'
 export default function FooterSection() {
   return (
-    <div className="w-full flex items-center justify-center py-9 md:justify-between md:px-24 lg:px-56">
+    <div className="w-full flex items-center pb-8 md:pt-12 px-14 justify-between md:px-24 lg:px-56">
       <a href="/">
         <img
           className="w-24 h-10"

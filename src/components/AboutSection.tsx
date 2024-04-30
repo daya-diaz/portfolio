@@ -2,7 +2,7 @@ import TitleSection from './TitleSections'
 
 export default function AboutSection() {
   return (
-    <section className="p-3 flex flex-col items-center m-auto justify-start py-20 md:py-32 gap-6">
+    <section className="p-3 flex flex-col items-center m-auto justify-start py-16 gap-6">
       <TitleSection title="Sobre mim" />
       <div className="flex flex-col gap-5">
         <p className="text-base font-inter font-medium text-gray-body md:w-[706px] text-center">
