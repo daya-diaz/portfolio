@@ -12,6 +12,8 @@ export default function ProjectsSection() {
               key={project.id}
               title={project.title}
               description={project.description}
+              imgSrc={project.imgSrc}
+              href={project.href}
             />
           )
         })}
