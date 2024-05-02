@@ -1,4 +1,5 @@
 import AboutSection from './components/AboutSection'
+import EducationSection from './components/EducationSection'
 import ExperienceSection from './components/ExperienceSection'
 import FooterSection from './components/FooterSection'
 import { Header } from './components/Header'
@@ -14,6 +15,7 @@ function App() {
         <AboutSection />
         <ExperienceSection />
         <ProjectsSection />
+        <EducationSection />
         <FooterSection />
       </div>
     </main>

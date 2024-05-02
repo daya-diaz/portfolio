@@ -14,6 +14,7 @@ export default {
         'gray-400': '#878787',
         'blue-500': '#0057FF',
         'gray-body': '#E1E1E1',
+        'not-allowed': '#797979',
       },
     },
   },

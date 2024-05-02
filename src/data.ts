@@ -9,6 +9,16 @@ export interface Project {
   href: string
 }
 
+export interface Education {
+  id: number
+  title: string
+  institute: string
+  resume: string
+  startAt: string
+  finishedAt: string
+  certificateUrl: string
+}
+
 const projects: Project[] = [
   {
     id: 1,
@@ -35,4 +45,49 @@ const projects: Project[] = [
   },
 ]
 
-export default projects
+const educations: Education[] = [
+  {
+    id: 2,
+    title: 'NLW - Expert',
+    institute: 'RocketSeat',
+    resume:
+      'Evento onde foi desenvolvido uma aplicação de criação de notas que oferece aos usuários a capacidade de criar notas digitando ou gravando áudios, os quais são posteriormente transcritos utilizando uma API de reconhecimento de voz.',
+    startAt: 'JAN 2024',
+    finishedAt: 'JAN 2024',
+    certificateUrl:
+      'https://app.rocketseat.com.br/certificates/14f6bec4-7132-43d2-b2b0-ac036f7a9254',
+  },
+  {
+    id: 3,
+    title: 'NLW - Unite',
+    institute: 'RocketSeat',
+    resume:
+      'Evento onde foi desenvolvido a apliação de um sistema de gerenciamento de participantes para eventos presenciais na Trilha ReactJS.',
+    startAt: 'MAR 2024',
+    finishedAt: 'ABR 2024',
+    certificateUrl:
+      'https://app.rocketseat.com.br/certificates/3fe8a27f-b723-4bac-bedc-85e0082398a6',
+  },
+  {
+    id: 1,
+    title: 'Análise e Desenvolvimento de Sistemas',
+    institute: 'Descomplica',
+    resume:
+      'Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Descomplica Faculdade Digital, onde estou adquirindo conhecimentos em diversas áreas de tecnologia. Desde o básico em Desenvolvimento Front-end e Back-end até assuntos mais avançados como DevOps.',
+    startAt: 'JUN 2023',
+    finishedAt: 'Cursando',
+    certificateUrl: '',
+  },
+  {
+    id: 4,
+    title: 'ReactJS',
+    institute: 'RocketSeat',
+    resume:
+      "Curso voltado para o Desenvolvimento de Aplicações Web responsivas utilizando a lib ReactJS. Ensina desde o básico como os fundamentos do ReactJS, Criação de SPA's com ReactJS, até o avançado como Next.js App Router e Testes.",
+    startAt: 'JAN 2024',
+    finishedAt: 'Cursando',
+    certificateUrl: '',
+  },
+]
+
+export { projects as default, educations }
