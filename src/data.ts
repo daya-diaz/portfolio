@@ -69,6 +69,16 @@ const educations: Education[] = [
       'https://app.rocketseat.com.br/certificates/3fe8a27f-b723-4bac-bedc-85e0082398a6',
   },
   {
+    id: 5,
+    title: 'Figma - Design de Interfaces',
+    institute: 'Udemy',
+    resume:
+      'Curso voltado para criação de interfaces (UI), protótipos de sites e aplicativos com Figma do zero com projetos reais.',
+    startAt: 'DEZ 2022',
+    finishedAt: 'JAN 2023',
+    certificateUrl: 'ude.my/UC-32fbd189-f96c-45d6-8ab5-5a051c15dfa4',
+  },
+  {
     id: 1,
     title: 'Análise e Desenvolvimento de Sistemas',
     institute: 'Descomplica',
