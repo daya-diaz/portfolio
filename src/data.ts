@@ -1,6 +1,7 @@
 import RangoImg from './assets/rangoProject.png'
 import NotesImg from './assets/notesProject.png'
 import PokedexImg from './assets/pokedexProject.png'
+import TimerImg from './assets/timerProject.png'
 export interface Project {
   id: number
   title: string
@@ -42,6 +43,14 @@ const projects: Project[] = [
     description: 'Aplicação para criação de notas digitadas e/ou faladas.',
     imgSrc: NotesImg,
     href: 'https://github.com/daya-diaz/nlw-expert-notes',
+  },
+  {
+    id: 4,
+    title: 'Ignite Timer',
+    description:
+      'Aplicação de Timer utilizando Local Storage, Context APIs e Reducer.',
+    imgSrc: TimerImg,
+    href: 'https://02-ignite-timer-ashen.vercel.app/',
   },
 ]
 
