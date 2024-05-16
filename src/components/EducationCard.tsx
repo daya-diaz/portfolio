@@ -31,19 +31,21 @@ export default function EducationCard(props: EducationCardProps) {
         </div>
       </div>
       <div className="flex items-center justify-center md:justify-end w-full">
-        <a
-          href={props.certificateUrl}
-          target="_blank"
-          className={`flex w-[200px] md:w-[22%] items-center md:text-xs justify-center px-3 py-2 bg-blue-500 rounded cursor-pointer font-medium text-center hover:bg-blue-800 transition ${props.certificateUrl === '' ? 'bg-transparent hover:bg-transparent cursor-default text-not-allowed w-[12%]' : ''}`}
-          rel="noreferrer"
-        >
-          {`${props.certificateUrl ? 'Link do certificado' : 'Em breve'}`}
-          <img
-            className={`size-[18px] ${props.certificateUrl === '' ? 'hidden' : ''}`}
-            src={arrowRight}
-            alt=""
-          />
-        </a>
+        {props.certificateUrl ? (
+          <a
+            href={props.certificateUrl}
+            target="_blank"
+            className="flex w-[200px] md:w-[22%] items-center md:text-xs justify-center px-3 py-2 bg-blue-500 rounded cursor-pointer font-medium text-center hover:bg-blue-800 transition"
+            rel="noreferrer"
+          >
+            Link do certificado
+            <img className="size-[18px]" src={arrowRight} alt="" />
+          </a>
+        ) : (
+          <div className="flex w-[200px] md:w-[22%] items-center md:text-xs justify-center px-3 py-2 bg-transparent rounded cursor-default font-medium text-center text-not-allowed w-[12%]">
+            Em breve
+          </div>
+        )}
       </div>
     </div>
   )

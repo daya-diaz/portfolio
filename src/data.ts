@@ -85,7 +85,8 @@ const educations: Education[] = [
       'Curso voltado para criação de interfaces (UI), protótipos de sites e aplicativos com Figma do zero com projetos reais.',
     startAt: 'DEZ 2022',
     finishedAt: 'JAN 2023',
-    certificateUrl: 'ude.my/UC-32fbd189-f96c-45d6-8ab5-5a051c15dfa4',
+    certificateUrl:
+      'https://www.udemy.com/certificate/UC-32fbd189-f96c-45d6-8ab5-5a051c15dfa4/',
   },
   {
     id: 1,
