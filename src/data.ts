@@ -78,6 +78,16 @@ const educations: Education[] = [
       'https://app.rocketseat.com.br/certificates/3fe8a27f-b723-4bac-bedc-85e0082398a6',
   },
   {
+    id: 6,
+    title: 'CSS - Flexbox',
+    institute: 'Origamid',
+    resume:
+      'Curso desenvolvido para ensinar na prática os fundamentos e utilização de FlexBox no CSS.',
+    startAt: 'FEV 2023',
+    finishedAt: 'FEV 2023',
+    certificateUrl: 'https://www.origamid.com/certificate/3284cfc6',
+  },
+  {
     id: 5,
     title: 'Figma - Design de Interfaces',
     institute: 'Udemy',
