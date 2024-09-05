@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Dayane Melo - Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o Projeto
 
-Currently, two official plugins are available:
+Este portfólio foi criado para destacar minha experiência e habilidades como desenvolvedora de software. Nele, você encontrará uma seleção dos meus projetos mais relevantes, demonstrando meu trabalho com ReactJS, React Native e TypeScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Através deste portfólio, espero demonstrar meu compromisso com a excelência no desenvolvimento de software e minha paixão por enfrentar novos desafios. Sinta-se à vontade para explorar e entrar em contato caso tenha interesse em discutir possíveis colaborações ou projetos futuros.
 
-## Expanding the ESLint configuration
+## Tecnologias Usadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **ReactJS**
+- **TypeScript**
+- **Vite**
+- **TailwindCSS**
 
-- Configure the top-level `parserOptions` property like this:
+## Link para acesso:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Portfólio**: https://portfolio-silk-ten-16.vercel.app/
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Contato
+
+Se você tiver perguntas ou quiser discutir o projeto, entre em contato comigo:
+
+- **Email**: dayadiazprofissional@gmail.com
+- **LinkedIn**: https://linkedin.com/in/dayane-santos-melo
+
+---
+
+Obrigado por conferir! 🚀
