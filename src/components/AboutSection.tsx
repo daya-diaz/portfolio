@@ -7,17 +7,18 @@ export default function AboutSection() {
       <div className="flex flex-col gap-5">
         <p className="text-base font-inter font-medium text-gray-body md:w-[706px] text-center">
           Como uma entusiasta do Software Development, meu campo de atuação
-          reside no dinâmico mundo do Web Development, atuando com{' '}
-          <strong>ReactJS</strong>, <strong>React Native</strong> e{' '}
-          <strong>TypeScript</strong>. Utilizando estas tecnologias, busco
-          integrar inovação e funcionalidade em cada projeto que abraço.
+          reside entre os dinâmicos mundos do Web Development e Mobile
+          Development, atuando com <strong>ReactJS</strong>,{' '}
+          <strong>React Native</strong> e <strong>TypeScript</strong>.
+          Utilizando estas tecnologias, busco integrar inovação e funcionalidade
+          em cada projeto que abraço.
         </p>
         <p className="text-base font-inter font-medium text-gray-body md:w-[706px] text-center">
-          Com um fervor pela criação de soluções web elegantes, navego
-          habilmente pelo cenário em constante evolução do desenvolvimento de
-          software. Minha jornada consiste em transformar conceitos em código,
-          projetar experiências de usuário fluidas e continuamente desafiar os
-          limites do que é possível na web.
+          Com um fervor pela criação de soluções elegantes, navego habilmente
+          pelo cenário em constante evolução do desenvolvimento de software.
+          Minha jornada consiste em transformar conceitos em código, projetar
+          experiências de usuário fluidas e continuamente desafiar os limites do
+          que é possível, tanto no mundo web quanto no mobile.
         </p>
       </div>
     </section>
