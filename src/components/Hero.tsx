@@ -15,8 +15,9 @@ export function Hero() {
           </span>
         </div>
         <p className="md:max-w-[587px] mb-4 text-gray-50 text-center font-medium text-sm md:text-base">
-          Software Developer apaixonada com foco no desenvolvimento ReactJS,
-          dedicada à criação de websites elegantes e fáceis de usar.
+          Software Developer apaixonada com foco no desenvolvimento ReactJS e
+          React Native dedicada à criação de interfaces elegantes e fáceis de
+          usar.
         </p>
         <Button
           href="https://api.whatsapp.com/send?phone=5581998595825"

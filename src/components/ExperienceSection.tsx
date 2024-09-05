@@ -23,9 +23,9 @@ export default function ExperienceSection() {
             prestando serviços para diversas empresas e clientes. Meu principal
             parceiro é o grupo Neat Solutions, onde exerço regularmente o papel
             de Desenvolvedora Front-End. Minha expertise se baseia em
-            tecnologias como ReactJS, TypeScript, NextJS, TailwindCSS e Sass, as
-            quais utilizo para criar soluções web inovadoras e de alta
-            qualidade.
+            tecnologias como ReactJS, React Native, TypeScript, NextJS,
+            TailwindCSS e Sass, as quais utilizo para criar soluções inovadoras
+            e de alta qualidade.
           </p>
           <p className="text-base font-inter font-medium text-gray-body md:w-[706px] text-center md:text-left">
             Recentemente, concluí um projeto significativo para o grupo: o
@@ -37,6 +37,7 @@ export default function ExperienceSection() {
         </div>
         <div className="px-3 flex flex-wrap gap-2 items-center justify-center md:justify-start">
           <SkillCard skillUrl="https://react.dev/" skill="ReactJS" />
+          <SkillCard skillUrl="https://reactnative.dev/" skill="React Native" />
           <SkillCard
             skillUrl="https://www.typescriptlang.org/"
             skill="TypeScript"
@@ -44,10 +45,6 @@ export default function ExperienceSection() {
           <SkillCard skillUrl="https://nextjs.org/" skill="NextJS" />
           <SkillCard skillUrl="https://tailwindcss.com/" skill="TailwindCSS" />
           <SkillCard skillUrl="https://jestjs.io/pt-BR/" skill="Jest" />
-          <SkillCard
-            skillUrl="https://testing-library.com/"
-            skill="Testing Library"
-          />
         </div>
       </div>
     </section>
